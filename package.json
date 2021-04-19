@@ -1,0 +1,26 @@
+{
+  "name": "xlsxtopptx",
+  "version": "1.0.0",
+  "description": "A minimal Electron application convert xlsx to pptx",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "xlsx",
+    "convert",
+    "pptx"
+  ],
+  "author": "kiendo",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^12.0.4"
+  },
+  "dependencies": {
+    "officegen": "^0.6.5",
+    "pptxgenjs": "^3.5.0",
+    "read-excel-file": "^5.1.0"
+  }
+}
